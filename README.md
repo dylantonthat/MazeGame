@@ -8,7 +8,7 @@ After utilizing Java's Swing UI, this was changed into a Maze Game where the use
 <br>
 ### When Intialized ###
 
-![alt image](/src/images/MazeGameEasy.PNG?raw=true)/![alt image](/src/images/MazeGameEasy.PNG?raw=true)/
+![alt image](/src/images/MazeGameEasy.PNG?raw=true) ![alt image](/src/images/MazeGameEasy.PNG?raw=true)/
 
 
 
