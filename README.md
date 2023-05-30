@@ -3,3 +3,6 @@ This project is an extension of a Data Structures and Algorithms class project I
 <br>
 <br>
 After utilizing Java's Swing UI, this was changed into a Maze Game where the user could choose between an Easy and Hard Maze, and then try to solve it on their own. If they cannot, then the correct solution can be displayed.
+
+# Images
+
