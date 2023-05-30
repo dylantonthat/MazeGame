@@ -8,10 +8,8 @@ After utilizing Java's Swing UI, this was changed into a Maze Game where the use
 <br>
 ### When Intialized ###
 
-<p align="center">
-  <img alt="easy" src="(/src/images/MazeGameEasy.PNG" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="hard" src="(/src/images/MazeGameHard.PNG width="45%">
-</p>
+![alt image](/src/images/MazeGameEasy.PNG?raw=true)/![alt image](/src/images/MazeGameEasy.PNG?raw=true)/
+
+
 
 
