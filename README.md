@@ -6,8 +6,12 @@ After utilizing Java's Swing UI, this was changed into a Maze Game where the use
 
 # Images
 <br>
-<br>
-
 ### When Intialized ###
-![alt image](/src/images/MazeGameEasy.PNG?raw=true)
+
+<p align="center">
+  <img alt="easy" src="(/src/images/MazeGameEasy.PNG" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="hard" src="(/src/images/MazeGameHard.PNG width="45%">
+</p>
+
 
