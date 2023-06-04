@@ -144,15 +144,7 @@ public class MazeUISWING implements ActionListener
             instructionsConstraints.insets = new Insets(0, 0, 10, 5);
             panel.add(instructions, instructionsConstraints);
 
-            // SET UP MAZE SOLUTION BUTTON
-            GridBagConstraints mazeSolutionButtonConstraints = new GridBagConstraints();
-            mazeSolutionButtonConstraints.gridx = 1;
-            mazeSolutionButtonConstraints.gridy = 3;
-            mazeSolutionButtonConstraints.insets = new Insets(0, 0, 10, 10);
-
-            mazeSolutionButton = new JButton("Give Up?");
-            mazeSolutionButton.addActionListener(this);
-            panel.add(mazeSolutionButton, mazeSolutionButtonConstraints);
+            setUpSolutionButton();
         }
         else if (e.getSource() == hardButton)
         {
@@ -184,17 +176,7 @@ public class MazeUISWING implements ActionListener
             instructionsConstraints.insets = new Insets(0, 0, 10, 5);
             panel.add(instructions, instructionsConstraints);
 
-
-            // SET UP MAZE SOLUTION BUTTON
-            GridBagConstraints mazeSolutionButtonConstraints = new GridBagConstraints();
-
-            mazeSolutionButtonConstraints.gridx = 1;
-            mazeSolutionButtonConstraints.gridy = 3;
-            mazeSolutionButtonConstraints.insets = new Insets(0, 0, 10, 10);
-
-            mazeSolutionButton = new JButton("Give Up?");
-            mazeSolutionButton.addActionListener(this);
-            panel.add(mazeSolutionButton, mazeSolutionButtonConstraints);
+            setUpSolutionButton();
         }
         else if (e.getSource() == mazeSolutionButton)
         {
@@ -205,6 +187,18 @@ public class MazeUISWING implements ActionListener
         }
     }
 
+    public void setUpSolutionButton()
+    {
+        // SET UP MAZE SOLUTION BUTTON
+        GridBagConstraints mazeSolutionButtonConstraints = new GridBagConstraints();
+        mazeSolutionButtonConstraints.gridx = 1;
+        mazeSolutionButtonConstraints.gridy = 3;
+        mazeSolutionButtonConstraints.insets = new Insets(0, 0, 10, 10);
+
+        mazeSolutionButton = new JButton("Give Up?");
+        mazeSolutionButton.addActionListener(this);
+        panel.add(mazeSolutionButton, mazeSolutionButtonConstraints);
+    }
     public void clear()
     {
         panel.revalidate();
